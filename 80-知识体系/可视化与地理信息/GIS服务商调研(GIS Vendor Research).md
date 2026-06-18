@@ -1,16 +1,15 @@
 ---
 aliases:
-  - JBFG://知识体系/知识笔记/GIS服务商调研
-tags:
-  - pjx/jbfg/知识笔记
-  - pjx/jbfg/GIS
-  - pjx/jbfg/竞品调研
+  - GIS Vendor Research
+  - GIS服务商调研
+tags: [知识体系, 可视化与地理信息, GIS, 竞品调研]
+title: GIS服务商调研(GIS Vendor Research)
 description: 中国GIS地方知名服务厂商调研——国产GIS平台报价、新能源场站三维GIS中标价格参考、厂商能力矩阵
-type: concept-note
+type: reference
 create-date: 2026-06-18
 ---
 
-# GIS 服务厂商调研
+# GIS 服务厂商调研(GIS Vendor Research)
 
 > 调研目的：为 JBFG 方案书中的 GIS/三维可视化模块提供定价基准和竞争对标。
 > 数据来源：政府采购中标公告、华为云商城标价、行业招标公示。价格为 2024-2025 年公开数据。
@@ -153,4 +152,4 @@ create-date: 2026-06-18
 
 - 上级：[[80-知识体系]]
 - 知识笔记：[[可视化引擎选型对比]] — Three.js + Cesium 的技术选型论证
-- 架构参考：[[风光储一体化架构模式]] — GIS 服务落在模式 A 的数据网关层
+- 架构参考：[[风光储一体化架构模式(Wind-Solar-Storage Integrated Architecture Pattern)|风光储一体化架构模式]] — GIS 服务落在模式 A 的数据网关层

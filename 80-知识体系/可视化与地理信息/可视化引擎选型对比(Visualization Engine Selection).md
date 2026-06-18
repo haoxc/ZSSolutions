@@ -1,12 +1,15 @@
 ---
-aliases: [JBFG://知识体系/知识笔记/可视化引擎选型对比]
-tags: [pjx/jbfg/知识笔记, pjx/jbfg/可视化, pjx/jbfg/引擎选型]
+aliases:
+  - Visualization Engine Selection
+  - 可视化引擎选型对比
+tags: [知识体系, 可视化与地理信息, 可视化, 引擎选型]
+title: 可视化引擎选型对比(Visualization Engine Selection)
 description: 新能源场站三维可视化平台引擎选型对比——Unity、Unreal Engine、WebGL/Three.js、Cesium，及在JBFG项目中的推荐
-type: concept-note
+type: reference
 create-date: 2026-06-18
 ---
 
-# 可视化引擎选型对比
+# 可视化引擎选型对比(Visualization Engine Selection)
 
 ## 为什么需要专门讨论
 
@@ -137,5 +140,5 @@ create-date: 2026-06-18
 ## 关联
 
 - 上级：[[80-知识体系]]
-- 关联概念：[[数智化场站系统|数智化场站系统]] — 可视化层是数智化的第 ① 层能力
-- 知识笔记：[[风光储一体化架构模式]] — 无论选哪种引擎，都装在模式 A 的可视化层中
+- 关联概念：[[数智化场站系统(Digital-Intelligence Station System)|数智化场站系统]] — 可视化层是数智化的第 ① 层能力
+- 知识笔记：[[风光储一体化架构模式(Wind-Solar-Storage Integrated Architecture Pattern)|风光储一体化架构模式]] — 无论选哪种引擎，都装在模式 A 的可视化层中

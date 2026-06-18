@@ -1,12 +1,15 @@
 ---
-aliases: [JBFG://知识体系/知识笔记/风光储一体化架构模式]
-tags: [pjx/jbfg/知识笔记, pjx/jbfg/架构, pjx/jbfg/风光储]
+aliases:
+  - Wind-Solar-Storage Integrated Architecture Pattern
+  - 风光储一体化架构模式
+tags: [知识体系, 术语, 风光储, 架构]
+title: 风光储一体化架构模式(Wind-Solar-Storage Integrated Architecture Pattern)
 description: 风光储一体化平台常见架构模式分类——云边端协同、数据流向、集成模式，及在JBFG项目中的适用性评估
-type: concept-note
+type: term
 create-date: 2026-06-18
 ---
 
-# 风光储一体化架构模式
+# 风光储一体化架构模式(Wind-Solar-Storage Integrated Architecture Pattern)
 
 ## 为什么需要架构模式
 
@@ -119,6 +122,6 @@ create-date: 2026-06-18
 ## 关联
 
 - 上级：[[80-知识体系]]
-- 关联概念：[[数智化场站系统|数智化场站系统]] — 模式 A 对应"数字化"，模式 B 为"数智化"预留数据条件
+- 关联概念：[[数智化场站系统(Digital-Intelligence Station System)|数智化场站系统]] — 模式 A 对应"数字化"，模式 B 为"数智化"预留数据条件
 - 输入：[[方案书-需求范围|方案书-需求范围]]
 - 参考：[[AI-技术方案-陆上风电场智慧运维与运行监视平台建设方案V1.docx|陆上风电场方案]] — 隐含采用模式 B/C（含振动数据下沉采集）

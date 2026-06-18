@@ -1,16 +1,17 @@
 ---
 aliases:
-  - JBFG://知识体系/辨析笔记/构网型vs跟网型
-tags:
-  - pjx/jbfg/辨析笔记
-  - pjx/jbfg/构网型
-  - pjx/jbfg/逆变器
+  - Grid-Forming vs Grid-Following
+  - 构网型跟网型辨析
+  - bx:构网型 跟网型
+  - 构网型 vs 跟网型
+tags: [知识体系, 辨析, 构网型, 逆变器]
+title: 辨析-构网型 跟网型(Grid-Forming vs Grid-Following)
 description: 构网型(GFM)与跟网型(GFL)逆变器控制原理的深层辨析——从控制内环到系统级行为差异
-type: concept-note
+type: 辨析
 create-date: 2026-06-18
 ---
 
-# 构网型 (GFM) vs 跟网型 (GFL)
+# 辨析-构网型 跟网型(Grid-Forming vs Grid-Following)
 
 ## 一句话分界
 
@@ -81,5 +82,5 @@ flowchart LR
 ## 关联
 
 - 上级：[[80-知识体系]]
-- 主概念：[[构网型透明场站|构网型透明场站]] — 在概念层面整合 GFM + 透明展示
-- 辨析：[[数智化 vs 数字化]] — 辨析笔记的同级参考
+- 主概念：[[构网型透明场站(Grid-Forming Transparent Station)|构网型透明场站]] — 在概念层面整合 GFM + 透明展示
+- 辨析：[[辨析-数智化 数字化(Digital-Intelligence vs Digitalization)|辨析-数智化 数字化]] — 辨析笔记的同级参考

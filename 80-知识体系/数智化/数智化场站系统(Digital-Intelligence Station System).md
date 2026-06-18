@@ -1,12 +1,15 @@
 ---
-aliases: [JBFG://知识体系/概念笔记/数智化场站系统]
-tags: [pjx/jbfg/概念笔记, pjx/jbfg/数智化]
-description: 数智化场站系统的概念定义——数字化与智能化融合的新一代场站运营范式，区别于传统自动化SCADA和"智慧场站"
-type: concept-note
+aliases:
+  - Digital-Intelligence Station System
+  - 数智化场站系统
+tags: [知识体系, 术语, 数智化, 场站系统]
+title: 数智化场站系统(Digital-Intelligence Station System)
+description: 数智化场站系统的概念定义——数字化与智能化融合的新一代场站运营范式，区别于传统自动化SCADA和“智慧场站”
+type: term
 create-date: 2026-06-18
 ---
 
-# 数智化场站系统
+# 数智化场站系统(Digital-Intelligence Station System)
 
 ## 核心定义
 
@@ -70,5 +73,5 @@ create-date: 2026-06-18
 ## 关联
 
 - 上级：[[80-知识体系]]
-- 辨析：[[数智化 vs 数字化|数智化 vs 数字化]]
+- 辨析：[[辨析-数智化 数字化(Digital-Intelligence vs Digitalization)|辨析-数智化 数字化]]
 - 输入：[[方案书-需求范围|方案书-需求范围]]

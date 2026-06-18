@@ -1,12 +1,15 @@
 ---
-aliases: [JBFG://知识体系/概念笔记/构网型透明场站]
-tags: [pjx/jbfg/概念笔记, pjx/jbfg/构网型, pjx/jbfg/透明场站]
+aliases:
+  - Grid-Forming Transparent Station
+  - 构网型透明场站
+tags: [知识体系, 术语, 构网型, 透明场站]
+title: 构网型透明场站(Grid-Forming Transparent Station)
 description: 构网型透明场站的概念定义——新型电力系统下新能源场站具备电网主动支撑能力并实时透明披露涉网性能的运营范式
-type: concept-note
+type: term
 create-date: 2026-06-18
 ---
 
-# 构网型透明场站
+# 构网型透明场站(Grid-Forming Transparent Station)
 
 ## 核心定义
 
@@ -99,6 +102,6 @@ create-date: 2026-06-18
 ## 关联
 
 - 上级：[[80-知识体系]]
-- 关联概念：[[数智化场站系统]] — 数智化场站体系中，"透明"是感知层的对外输出
-- 待辨析：[[构网型 vs 跟网型|构网型 vs 跟网型]] — 控制原理的深层差异
+- 关联概念：[[数智化场站系统(Digital-Intelligence Station System)|数智化场站系统]] — 数智化场站体系中，"透明"是感知层的对外输出
+- 待辨析：[[辨析-构网型 跟网型(Grid-Forming vs Grid-Following)|辨析-构网型 跟网型]] — 控制原理的深层差异
 - 输入：[[方案书-需求范围|方案书-需求范围]]
