@@ -1,6 +1,10 @@
 ---
-aliases: [PJX_CODE://JBFG方案书/知识笔记/GIS服务商调研]
-tags: [pjx/jbfg/知识笔记, pjx/jbfg/GIS, pjx/jbfg/竞品调研]
+aliases:
+  - JBFG://知识体系/知识笔记/GIS服务商调研
+tags:
+  - pjx/jbfg/知识笔记
+  - pjx/jbfg/GIS
+  - pjx/jbfg/竞品调研
 description: 中国GIS地方知名服务厂商调研——国产GIS平台报价、新能源场站三维GIS中标价格参考、厂商能力矩阵
 type: concept-note
 create-date: 2026-06-18
@@ -147,6 +151,6 @@ create-date: 2026-06-18
 
 ## 关联
 
-- 上级：[[99-知识体系]]
+- 上级：[[80-知识体系]]
 - 知识笔记：[[可视化引擎选型对比]] — Three.js + Cesium 的技术选型论证
 - 架构参考：[[风光储一体化架构模式]] — GIS 服务落在模式 A 的数据网关层

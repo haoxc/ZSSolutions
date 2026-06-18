@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "01e6f45f39f1b218",
+        "id": "bae3a76600d52aab",
         "type": "tabs",
         "children": [
           {
-            "id": "e9709a3425622ab4",
+            "id": "f9768ee8ab029890",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-知识体系/99-知识体系.md",
+                "file": "80-知识体系/80-知识体系.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "99-知识体系"
+              "title": "80-知识体系"
             }
           }
         ]
@@ -62,16 +62,13 @@
             }
           },
           {
-            "id": "e1f11a051ab4cffc",
+            "id": "b95dbc4c4bdf4839",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "笔记本导航器"
             }
           }
         ],
@@ -79,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 667.5
+    "width": 277.5
   },
   "right": {
     "id": "73505d665b22c4e5",
@@ -252,44 +249,44 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e1f11a051ab4cffc",
+  "active": "f9768ee8ab029890",
   "lastOpenFiles": [
-    "20-JBFG方案书撰写/20-JBFG方案书撰写.md",
+    "80-知识体系/知识笔记/可视化引擎选型对比.md.tmp.33820.1781777158296",
+    "80-知识体系/辨析笔记/构网型 vs 跟网型.md.tmp.33820.1781777156778",
+    "80-知识体系/概念笔记/数智化.md.tmp.33820.1781777148879",
+    "80-知识体系/知识笔记/风光储一体化架构模式.md",
+    "80-知识体系/知识笔记/GIS服务商调研.md",
+    "80-知识体系/知识笔记/知识笔记.md",
+    "80-知识体系/辨析笔记/辨析笔记.md",
+    "80-知识体系/概念笔记/概念笔记.md",
+    "80-知识体系/80-知识体系.md",
+    "02-参考资料/02-参考资料.md",
+    "20-方案撰写/20-方案撰写.md",
+    "80-知识体系/知识笔记/知识笔记.md.tmp.33820.1781776901357",
+    "80-知识体系/知识笔记/风光储一体化架构模式.md.tmp.33820.1781776899899",
+    "80-知识体系/知识笔记/GIS服务商调研.md.tmp.33820.1781776897534",
+    "80-知识体系/辨析笔记/构网型 vs 跟网型.md.tmp.33820.1781776894023",
+    "80-知识体系/辨析笔记/数智化 vs 数字化.md.tmp.33820.1781776892492",
+    "03-需求分析/03-需求分析.md",
+    "80-知识体系/辨析笔记/辨析笔记.md.tmp.33820.1781776890523",
     "01-原始材料/01-原始材料.md",
-    "README.md",
-    "课题-JBFG方案书撰写/z附件/~$管理系统（500009687）技术规范-冀北风光储数智化生产支撑系统-0423-1310(3).doc",
-    "课题-JBFG方案书撰写/~$管理系统（500009687）技术规范-冀北风光储数智化生产支撑系统-0423-1310(3).doc",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-26.0617-风光储能/zs项目-26.0617-风光储能.md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-26.0617-风光储能/test.md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-26.0617-风光储能/吴辰阳--国网冀北电力有限公司2026年子公司、战新产业、原集体企业第三次物资批次公开招标采购_招标文件包.zip",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-26.0617-风光储能",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/ZS-项目管理.md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/z附件",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/止善研究院项目(zs-svy).md",
-    "01-我的(hxc-svy)/01-我的(hxc-svy).md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/课题/课题-ZS数字化三维智能管理分析与设计(26.0116)/20-技术资产/20-技术资产.md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/课题/课题-ZS数字化三维智能管理分析与设计(26.0116)/课题-ZS数字化三维智能管理分析与设计(26.0116).md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/课题/课题-ZS数字化三维智能管理分析与设计(26.0116)/20-技术资产/信息服务集成/数字主线(Digital Thread)/数字主线(Digital Thread).md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/课题/课题-ZS数字化三维智能管理分析与设计(26.0116)/--/260305-GIS与数字孪生架构关系/GIS孪生技术架构关系.md",
-    "06-工具/工具-通用工具汇编/工具-Obsidian/ob-dataview/dataview-应用案例集/dataview-项目管理案例/dataview-列表/z附件",
-    "06-工具/工具-通用工具汇编/工具-Obsidian/ob-dataview/dataview-应用案例集/dataview-项目管理案例/dataview-列表/dataview-列表.md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-26.0516-国网冀北风光储运维管理系统/zs项目-26.0516-国网冀北风光储运维管理系统.md",
-    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)/课题-PPT生成AI技术调研(26.0611).md",
-    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)/产出/技术综述-PPT生成AI技术全栈调研(Markdown to Presentation Pipeline).md",
-    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)/复盘",
-    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)/产出",
-    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)/过程",
-    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)",
-    "97-复盘/00-通用-26.0611-PPT生成AI调研-QIE-DEEP.md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-25.1230-海上风能深能/zs项目-25.1230-海上风能深能.md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/zs项目-26.0514-蒙西项目/zs项目-26.0514-蒙西项目.md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-管理目录命名.md",
-    "04-领域/00-概念术语/倒置思维(Inversion).md",
-    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/课题/课题-ZS数字化三维智能管理分析与设计(26.0116)/20-技术资产/信息服务集成/数字孪生综述/课题-数据孪生技术栈/毫秒级性能-架构处理/TDengine.md",
-    "04-领域/00-概念术语/TDengine.md",
-    "04-领域/00-概念术语/Cynefin框架(Cynefin Framework).md",
-    "04-领域/00-概念术语/辨析-抠图(Cutout)：绿幕抠图(Chroma Key), 精细抠图(Image Matting), 剪切路径(Clipping Path), 图像分割(Image Segmentation), Alpha通道(Alpha Channel), 透明背景(Transparent Background).md",
-    "04-领域/00-概念术语/Cynefin 框架 (Snowden).md",
+    "02-参考资料/公司方案(及报价)/公司方案(及报价).md",
+    "02-参考资料/公司方案(及报价)/公司方案(word版)/公司方案(word版).md",
+    "readme.md",
+    "99-设置/scripts/z附件",
+    "99-设置/scripts/windows",
+    "99-设置/scripts/README.md",
+    "Z.md",
+    "20-JBFG方案书撰写/20-JBFG方案书撰写 1.md",
+    "99-设置/zTemplates/输入模板/TPL-Input-辨析(BX).md",
+    "99-设置/zTemplates/输入模板/TPL-Input-摘要(ZY).md",
+    "99-设置/zTemplates/输入模板/TPL-提示词-知识库(Prompt,tsc).md",
+    "99-设置/zTemplates/输入模板/TPL-Input-审美.md",
+    "99-设置/zTemplates/QuickAdd/TPL-Input-术语(Term-Q).md",
+    "99-设置/zTemplates/QuickAdd/TPL-待办-调研(DY-Q).md",
+    "99-设置/zTemplates/QuickAdd/TPL-Input-辨析(Q).md",
+    "99-设置/zTemplates/QuickAdd/TPL-Input-审美(Q).md",
+    "99-设置/zTemplates/aigc/TPL-提示词-风格迁移(Q).md",
     "04-领域/00-概念术语/机器声纹(Machine Voiceprint, Acoustic Fingerprint)/z附件/Pasted Image 20260612135756_070.png",
     "04-领域/00-概念术语/机器声纹(Machine Voiceprint, Acoustic Fingerprint)/z附件/Pasted Image 20260612135650_148.png",
     "04-领域/00-概念术语/机器声纹(Machine Voiceprint, Acoustic Fingerprint)/z附件/Pasted Image 20260612135530_685.png",

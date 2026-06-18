@@ -1,6 +1,10 @@
 ---
-aliases: [PJX_CODE://JBFG方案书/辨析笔记/构网型vs跟网型]
-tags: [pjx/jbfg/辨析笔记, pjx/jbfg/构网型, pjx/jbfg/逆变器]
+aliases:
+  - JBFG://知识体系/辨析笔记/构网型vs跟网型
+tags:
+  - pjx/jbfg/辨析笔记
+  - pjx/jbfg/构网型
+  - pjx/jbfg/逆变器
 description: 构网型(GFM)与跟网型(GFL)逆变器控制原理的深层辨析——从控制内环到系统级行为差异
 type: concept-note
 create-date: 2026-06-18
@@ -76,6 +80,6 @@ flowchart LR
 
 ## 关联
 
-- 上级：[[99-知识体系]]
+- 上级：[[80-知识体系]]
 - 主概念：[[构网型透明场站|构网型透明场站]] — 在概念层面整合 GFM + 透明展示
 - 辨析：[[数智化 vs 数字化]] — 辨析笔记的同级参考
