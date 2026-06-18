@@ -1,0 +1,20 @@
+/* --- 科技风加粗字体优化 --- */
+
+.markdown-rendered strong, 
+.cm-strong {
+    color: #05d693 !important;      /* 荧光绿：科技感的视觉锚点 */
+    background-color: rgba(5, 214, 147, 0.08); /* 极淡的背景块：增加实体感 */
+    padding: 0px 4px;                /* 稍微撑开，像 UI 里的标签 */
+    border-radius: 2px;
+    font-family: "JetBrains Mono", "Fira Code", monospace; /* 等宽字体：增加工业精密感 */
+    font-weight: 700;
+    text-shadow: 0 0 2px rgba(5, 214, 147, 0.2); /* 微弱发光：模拟显示屏效果 */
+    letter-spacing: 0.5px;
+}
+
+/* 悬停时增强发光感，体现交互性 */
+.markdown-rendered strong:hover {
+    background-color: rgba(5, 214, 147, 0.15);
+    text-shadow: 0 0 8px rgba(5, 214, 147, 0.4);
+    transition: 0.2s ease-in-out;
+}

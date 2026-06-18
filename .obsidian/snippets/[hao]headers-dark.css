@@ -1,0 +1,44 @@
+/* --- 优化版：高对比科技冷色调 (H1-H6) --- */
+
+/* H1: 极光绿 - 极高明度，核心视觉焦点 */
+.cm-header-1, .markdown-preview-view h1 { 
+    color: #40ffdb !important; /* 大幅提升亮度 */
+    font-weight: 800; 
+    border-bottom: 2px solid #20806d; 
+    text-shadow: 0 0 10px rgba(64, 255, 219, 0.2); /* 增加微弱光晕提升辨识度 */
+}
+
+/* H2: 霓虹青 - 清晰的架构感 */
+.cm-header-2, .markdown-preview-view h2 { 
+    color: #26e6c4 !important; 
+    font-weight: 700; 
+    border-left: 5px solid #26e6c4; 
+    padding-left: 12px;
+}
+
+/* H3: 冰晶蓝 - 指令感 */
+.cm-header-3, .markdown-preview-view h3 { 
+    color: #48d1cc !important; 
+    font-weight: 700; 
+}
+
+/* H4: 淡雅青 - 辅助逻辑 */
+.cm-header-4, .markdown-preview-view h4 { 
+    color: #80f0e6 !important; 
+    font-weight: 600; 
+    letter-spacing: 0.5px;
+}
+
+/* H5: 薄荷灰蓝 - 细节区分 */
+.cm-header-5, .markdown-preview-view h5 { 
+    color: #a8dadc !important; 
+    font-weight: 600; 
+}
+
+/* H6: 极地灰 - 辅助边界 */
+.cm-header-6, .markdown-preview-view h6 { 
+    color: #cbdadb !important; 
+    font-weight: 500; 
+    font-style: italic;
+    font-size: 0.9em;
+}

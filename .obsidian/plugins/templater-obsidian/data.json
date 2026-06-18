@@ -1,0 +1,58 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "99-设置/zTemplates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "99-设置/scripts",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "01-输入/辨析",
+      "template": "99-设置/zTemplates/输入模板/TPL-Input-辨析.md"
+    },
+    {
+      "folder": "04-笔记/01-日常笔记",
+      "template": "99-设置/zTemplates/笔记模板/TPL-日常笔记(Diary).md"
+    },
+    {
+      "folder": "01-输入/审美",
+      "template": "99-设置/zTemplates/输入模板/TPL-Input-审美.md"
+    },
+    {
+      "folder": "02-看板/01-项目管理/止善研究院项目看板/ZS-解决方案/zs方案-机房方案(1025)/00-收集",
+      "template": "99-设置/zTemplates/输入模板/TPL-Input-摘要(ZY).md"
+    },
+    {
+      "folder": "03-领域/40-计算机技术/it-编程语言/00-编程语言术语(pgTerms)",
+      "template": "99-设置/zTemplates/TPL-术语(Term)/TPL-Input-IT术语(term).md"
+    },
+    {
+      "folder": "/",
+      "template": "99-设置/zTemplates/--Normal/TPL-Default.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "99-设置/zTemplates/TPL-笔记(normal).md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

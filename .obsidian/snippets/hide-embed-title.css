@@ -1,0 +1,8 @@
+/* 隐藏所有嵌入内容的第一个标题 */
+.markdown-embed-content > div > h1 {
+  display: none;
+}
+/* 隐藏嵌入内容的笔记标题 */
+.markdown-embed-title {
+  display: none;
+}

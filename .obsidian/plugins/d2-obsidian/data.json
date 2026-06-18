@@ -1,0 +1,10 @@
+{
+  "layoutEngine": "elk",
+  "debounce": 500,
+  "theme": 0,
+  "apiToken": "",
+  "d2Path": "C:\\Program Files\\D2",
+  "pad": 100,
+  "sketch": false,
+  "containerHeight": 800
+}

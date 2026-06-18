@@ -1,0 +1,12 @@
+/* Change background of the actively selected file/folder */
+.nav-file.is-active .nav-file-title,
+.nav-folder.is-active .nav-folder-title {
+  background-color: #4a4a4a !important; /* Example dark grey background */
+  color: white !important; /* Example white text */
+}
+
+/* Change the background color when hovering over a file/folder */
+.nav-file-title:hover,
+.nav-folder-title:hover {
+    background-color: #555555 !important; 
+}

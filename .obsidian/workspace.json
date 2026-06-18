@@ -1,0 +1,314 @@
+{
+  "main": {
+    "id": "d81022eae9bd378c",
+    "type": "split",
+    "children": [
+      {
+        "id": "01e6f45f39f1b218",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9709a3425622ab4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99-知识体系/99-知识体系.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "99-知识体系"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6201113a6698d42",
+    "type": "split",
+    "children": [
+      {
+        "id": "756dada9ea9d6879",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2adb02a31faa5175",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "371743ac89c53a63",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "e1f11a051ab4cffc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 667.5
+  },
+  "right": {
+    "id": "73505d665b22c4e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "93e5cc3521260f53",
+        "type": "tabs",
+        "dimension": 45.84295612009239,
+        "children": [
+          {
+            "id": "65aec2170c2ce4c0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "-workspaces/课题-UE游戏制作的工作流(26.0502)/课题-UE游戏制作的工作流(26.0502).md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "课题-UE游戏制作的工作流(26.0502) 的大纲"
+            }
+          },
+          {
+            "id": "2efcf5646441d77b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f6ec48e0bafa6d5d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6ac8fa8eb454702a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "09-工具/工具-mac常用工具/liteLLM/liteLLM.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for liteLLM"
+            }
+          },
+          {
+            "id": "5e50e6bd16e17e66",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "09-工具/工具-mac常用工具/liteLLM/liteLLM.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from liteLLM"
+            }
+          }
+        ]
+      },
+      {
+        "id": "71529ad49a28e47f",
+        "type": "tabs",
+        "dimension": 54.15704387990761,
+        "children": [
+          {
+            "id": "6da3446e71836925",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "-workspaces/课题-UE游戏制作的工作流(26.0502)/课题-UE游戏制作的工作流(26.0502).md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1.84523470276261,
+                  "lineSizeMultiplier": 2.82732921712974,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.462465678405521,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "课题-UE游戏制作的工作流(26.0502) 的关系图"
+            }
+          },
+          {
+            "id": "2d2912de2340dd46",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-kanban:创建新看板": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "webpage-html-export:导出为HTML": false,
+      "notebook-navigator:笔记本导航器": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "e1f11a051ab4cffc",
+  "lastOpenFiles": [
+    "20-JBFG方案书撰写/20-JBFG方案书撰写.md",
+    "01-原始材料/01-原始材料.md",
+    "README.md",
+    "课题-JBFG方案书撰写/z附件/~$管理系统（500009687）技术规范-冀北风光储数智化生产支撑系统-0423-1310(3).doc",
+    "课题-JBFG方案书撰写/~$管理系统（500009687）技术规范-冀北风光储数智化生产支撑系统-0423-1310(3).doc",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-26.0617-风光储能/zs项目-26.0617-风光储能.md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-26.0617-风光储能/test.md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-26.0617-风光储能/吴辰阳--国网冀北电力有限公司2026年子公司、战新产业、原集体企业第三次物资批次公开招标采购_招标文件包.zip",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-26.0617-风光储能",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/ZS-项目管理.md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/z附件",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/止善研究院项目(zs-svy).md",
+    "01-我的(hxc-svy)/01-我的(hxc-svy).md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/课题/课题-ZS数字化三维智能管理分析与设计(26.0116)/20-技术资产/20-技术资产.md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/课题/课题-ZS数字化三维智能管理分析与设计(26.0116)/课题-ZS数字化三维智能管理分析与设计(26.0116).md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/课题/课题-ZS数字化三维智能管理分析与设计(26.0116)/20-技术资产/信息服务集成/数字主线(Digital Thread)/数字主线(Digital Thread).md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/课题/课题-ZS数字化三维智能管理分析与设计(26.0116)/--/260305-GIS与数字孪生架构关系/GIS孪生技术架构关系.md",
+    "06-工具/工具-通用工具汇编/工具-Obsidian/ob-dataview/dataview-应用案例集/dataview-项目管理案例/dataview-列表/z附件",
+    "06-工具/工具-通用工具汇编/工具-Obsidian/ob-dataview/dataview-应用案例集/dataview-项目管理案例/dataview-列表/dataview-列表.md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-26.0516-国网冀北风光储运维管理系统/zs项目-26.0516-国网冀北风光储运维管理系统.md",
+    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)/课题-PPT生成AI技术调研(26.0611).md",
+    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)/产出/技术综述-PPT生成AI技术全栈调研(Markdown to Presentation Pipeline).md",
+    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)/复盘",
+    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)/产出",
+    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)/过程",
+    "03-课题/31-人工智能学科/课题-PPT生成AI技术调研(26.0611)",
+    "97-复盘/00-通用-26.0611-PPT生成AI调研-QIE-DEEP.md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-项目管理/zs项目-25.1230-海上风能深能/zs项目-25.1230-海上风能深能.md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/zs项目-26.0514-蒙西项目/zs项目-26.0514-蒙西项目.md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/ZS-管理目录命名.md",
+    "04-领域/00-概念术语/倒置思维(Inversion).md",
+    "01-我的(hxc-svy)/项目/止善研究院项目(zs-svy)/课题/课题-ZS数字化三维智能管理分析与设计(26.0116)/20-技术资产/信息服务集成/数字孪生综述/课题-数据孪生技术栈/毫秒级性能-架构处理/TDengine.md",
+    "04-领域/00-概念术语/TDengine.md",
+    "04-领域/00-概念术语/Cynefin框架(Cynefin Framework).md",
+    "04-领域/00-概念术语/辨析-抠图(Cutout)：绿幕抠图(Chroma Key), 精细抠图(Image Matting), 剪切路径(Clipping Path), 图像分割(Image Segmentation), Alpha通道(Alpha Channel), 透明背景(Transparent Background).md",
+    "04-领域/00-概念术语/Cynefin 框架 (Snowden).md",
+    "04-领域/00-概念术语/机器声纹(Machine Voiceprint, Acoustic Fingerprint)/z附件/Pasted Image 20260612135756_070.png",
+    "04-领域/00-概念术语/机器声纹(Machine Voiceprint, Acoustic Fingerprint)/z附件/Pasted Image 20260612135650_148.png",
+    "04-领域/00-概念术语/机器声纹(Machine Voiceprint, Acoustic Fingerprint)/z附件/Pasted Image 20260612135530_685.png",
+    "01-我的(hxc-svy)/z附件/Pasted Image 20260601171937_179.png",
+    "01-我的(hxc-svy)/z附件/Pasted Image 20260601170633_391.png",
+    "98-附件/5月20日前通用学习日历.svg",
+    "-workspaces/课题-工业设计机械基础备考(26.0509)/工业设计机械基础-核心知识总图.svg",
+    "-workspaces/课题-工业设计机械基础备考(26.0509)/工业设计机械基础-复习计划可行性评估-雷达图.svg",
+    "-workspaces/课题-工业设计机械基础备考(26.0509)/工业设计机械基础-14天复习路线图.svg",
+    "-workspaces/课题-工业设计机械基础备考(26.0509)/z附件/a44cef4f71850b5d8db5dd2f0f4e4aa4_MD5.jpg",
+    "01-我的/工作室/沟通记录/XJJ-沟通记录/JJ-协同目录(1013)/26.0413-课题分解/Untitled.canvas",
+    "01-我的/工作室/10-成员目录/徐菁菁-工作目录/ppt-制作工作流/PPT-Slide制作/PPT-Slide制作-思路.canvas",
+    "01-我的/工作室/10-成员目录/闫鸿霏-工作目录/闫鸿霏-工作复盘-1120/视觉迁移-分析-1120.canvas",
+    "01-我的/工作室/10-成员目录/李想-工作目录/机房场景-1209-讨论/未命名.canvas",
+    "01-我的/工作室/10-成员目录/徐菁菁-工作目录/课题-新奇合作方案框架(思路)/课题-新奇合作方案框架(思路).canvas",
+    "01-我的/工作室/10-成员目录/徐菁菁-工作目录/25.1210-新奇合作方案框架(思路)/25.1210-新奇合作方案框架(思路).canvas",
+    "01-我的/工作室/10-成员目录/杨晨-工作目录/场景确认-杨晨-1209.canvas",
+    "01-我的/工作室/99-工作复盘/未命名.canvas",
+    "01-我的/常工院/00-课程体系/cs-科技前沿(FTCS)/czu-学习路径和实践(26.0402)/--/练习-目标制定/课题-6个月2级日语冲刺(N2STY)/N2STY-6个月冲刺计划(6冲)/N2STY-6冲-N2词汇(3000单词)/N2-单词学习计划.canvas",
+    "01-我的/常工院/00-课程体系/cs-面向对象程序设计(OOPCS)/02-Python课程教学/05实践-Python实践/实践01-颜色管理类(入门级)/实践01-颜色管理类-分析白板/实践01-颜色管理类-分析白板.canvas"
+  ]
+}

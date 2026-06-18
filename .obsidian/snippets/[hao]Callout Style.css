@@ -1,0 +1,76 @@
+/* .callout[data-callout="caution"] {
+  --callout-color: 218, 119, 86;
+  background-color: rgba(218, 119, 86, 0.08);
+  border-left: 3px solid rgba(218, 119, 86, 0.8);
+  border-radius: 4px;
+} */
+
+/* Important - 紫色 */
+.callout[data-callout="important"] {
+  --callout-color: 109, 103, 228; /* #6D67E4 */
+  background-color: rgba(109, 103, 228, 0.05);
+  border-left: 4px solid rgb(109, 103, 228);
+  border-radius: 4px;
+}
+
+/* Caution - 红色 */
+.callout[data-callout="caution"] {
+  --callout-color: 217, 48, 37; /* #D93025 */
+  background-color: rgba(217, 48, 37, 0.05);
+  border-left: 4px solid rgb(217, 48, 37);
+  border-radius: 4px;
+}
+
+/* Note - 蓝色 */
+.callout[data-callout="note"] {
+  --callout-color: 26, 115, 232; /* #1A73E8 */
+  background-color: rgba(26, 115, 232, 0.05);
+  border-left: 4px solid rgb(26, 115, 232);
+  border-radius: 4px;
+}
+
+/* Tip - 绿色 */
+.callout[data-callout="tip"] {
+  --callout-color: 30, 142, 62; /* #1E8E3E */
+  background-color: rgba(30, 142, 62, 0.05);
+  border-left: 4px solid rgb(30, 142, 62);
+  border-radius: 4px;
+}
+
+
+/* Warning - 警告 (橙黄色) */
+.callout[data-callout="warning"] {
+  --callout-color: 242, 153, 0; /* #F29900 */
+  background-color: rgba(242, 153, 0, 0.05);
+  border-left: 4px solid rgb(242, 153, 0);
+  border-radius: 4px;
+}
+
+/* Error - 错误 (深红色，比 Caution 更重) */
+.callout[data-callout="error"] {
+  --callout-color: 211, 47, 47; /* #D32F2F */
+  background-color: rgba(211, 47, 47, 0.05);
+  border-left: 4px solid rgb(211, 47, 47);
+  border-radius: 4px;
+}
+
+/* Info - 信息 (明亮的青蓝色) */
+.callout[data-callout="info"] {
+  --callout-color: 0, 151, 167; /* #0097A7 */
+  background-color: rgba(0, 151, 167, 0.05);
+  border-left: 4px solid rgb(0, 151, 167);
+  border-radius: 4px;
+}
+/* Quote - 石板灰 */
+.callout[data-callout="quote"] {
+  --callout-color: 100, 116, 139;
+  background-color: rgba(100, 116, 139, 0.05);
+}
+
+
+/* Quote - 石板灰 (带图标和 4px 左边框) */
+.callout[data-callout="quote"] {
+  --callout-color: 100, 116, 139; /* #64748B */
+  background-color: rgba(100, 116, 139, 0.05);
+  border-left: 4px solid rgb(100, 116, 139) !important;
+}

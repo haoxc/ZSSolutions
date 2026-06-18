@@ -1,0 +1,23 @@
+/* 此处代码提供了一个基础示例，用于为 Obsidian 表格添加圆角、边框和隐藏垂直分隔线。*/
+/* 你可以根据图片中的具体颜色和样式需求进行修改和扩展。*/
+/* 例如，你可以调整背景色、文字颜色、边框粗细等。*/
+/* 更高级的用法可能需要针对特定单元格内容使用 data-属性或特定的 CSS 选择器。*/
+
+/* 为表格添加圆角和边框 */
+.markdown-source-view.mod-cm6 .cm-table,
+.markdown-reading-view .table-wrapper table {
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+/* 隐藏垂直分隔线 */
+.markdown-source-view.mod-cm6 .cm-table th,
+.markdown-source-view.mod-cm6 .cm-table td,
+.markdown-reading-view .table-wrapper table th,
+.markdown-reading-view .table-wrapper table td {
+  border-right: none;
+}
+
+/* （其他样式，例如表头背景色、行颜色等，可以根据需要添加）*/

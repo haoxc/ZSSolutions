@@ -1,0 +1,218 @@
+/* ================================================
+   [hao] Theme — 浅色背景 · 深绿主题
+   色系：
+     主色  #0a6b4e  深祖母绿
+     辅色  #7a5535  暖棕（code）
+     标签  #b06820  琥珀橙（tag）
+     链接  #1a7a5a  中绿
+   ================================================ */
+
+
+/* ── 1. HEADERS ─────────────────────────────── */
+
+.cm-header-1, .markdown-preview-view h1,
+.markdown-rendered h1 {
+    color: #0a6b4e !important;
+    font-weight: 800;
+    font-size: 1.6em;
+    border-bottom: 2.5px solid #0a6b4e;
+    padding-bottom: 4px;
+    letter-spacing: 0.4px;
+}
+
+.cm-header-2, .markdown-preview-view h2,
+.markdown-rendered h2 {
+    color: #0d7a59 !important;
+    font-weight: 700;
+    font-size: 1.3em;
+    border-left: 4px solid #0d7a59;
+    padding-left: 10px;
+    background: rgba(13, 122, 89, 0.05);
+    border-radius: 0 4px 4px 0;
+}
+
+.cm-header-3, .markdown-preview-view h3,
+.markdown-rendered h3 {
+    color: #1e9e72 !important;
+    font-weight: 700;
+    font-size: 1.15em;
+    border-bottom: 1.5px dashed rgba(30, 158, 114, 0.4);
+    padding-bottom: 2px;
+}
+
+.cm-header-4, .markdown-preview-view h4,
+.markdown-rendered h4 {
+    color: #2aaa7e !important;
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+.cm-header-5, .markdown-preview-view h5,
+.markdown-rendered h5 {
+    color: #3d8c72 !important;
+    font-weight: 600;
+    font-size: 0.95em;
+}
+
+.cm-header-6, .markdown-preview-view h6,
+.markdown-rendered h6 {
+    color: #5a7a6e !important;
+    font-weight: 500;
+    font-size: 0.88em;
+    font-style: italic;
+    opacity: 0.85;
+}
+
+
+/* ── 2. LINKS ────────────────────────────────── */
+
+.markdown-preview-view a,
+.markdown-rendered a {
+    color: #1a7a5a !important;
+    text-decoration: underline !important;
+    text-decoration-color: rgba(26, 122, 90, 0.35) !important;
+    text-underline-offset: 2px !important;
+}
+
+.markdown-preview-view a:hover,
+.markdown-rendered a:hover {
+    color: #0a6b4e !important;
+    text-decoration-color: #0a6b4e !important;
+}
+
+
+/* ── 3. BOLD ─────────────────────────────────── */
+/* BOLD — 强制覆盖 */
+/* BOLD — 暖棕，低调但可识别 */
+.markdown-preview-view strong,
+.markdown-preview-view b,
+.markdown-rendered strong,
+.markdown-rendered b,
+.cm-s-obsidian .cm-strong,
+body .markdown-preview-view strong,
+body .markdown-rendered strong {
+    color: #8b5e2a !important;   /* 和 inline code 同色系，暖棕 */
+    font-weight: 700 !important;
+}
+
+/* ── 4. TAG ──────────────────────────────────── */
+
+a.tag, .cm-hashtag {
+    background-color: rgba(176, 104, 32, 0.10) !important;
+    color: #b06820 !important;
+    border: 1px solid rgba(176, 104, 32, 0.28) !important;
+    border-radius: 10px !important;
+    padding: 1px 8px !important;
+    font-size: 0.85em !important;
+    font-weight: 500 !important;
+    display: inline-block !important;
+    line-height: 1.4 !important;
+    text-decoration: none !important;
+}
+
+/* 编辑模式 # 号拼接修复 */
+.cm-hashtag-begin {
+    padding-right: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.cm-hashtag-end {
+    padding-left: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+
+/* ── 5. INLINE CODE ──────────────────────────── */
+
+.markdown-rendered code,
+.markdown-preview-view p code,
+.markdown-preview-view li code,
+.markdown-preview-view td code,
+.cm-s-obsidian span.cm-inline-code {
+    background-color: rgba(122, 85, 53, 0.09) !important;
+    color: #7a5535 !important;
+    border: 1px solid rgba(122, 85, 53, 0.22) !important;
+    border-radius: 10px !important;
+    padding: 1px 8px !important;
+    font-size: 0.85em !important;
+    font-family: inherit !important;
+    font-weight: 500 !important;
+}
+
+/* 排除代码块 */
+.markdown-rendered pre code,
+.markdown-preview-view pre code {
+    all: unset !important;
+    font-family: monospace !important;
+    font-size: 0.9em !important;
+}
+
+
+/* ── 6. TABLE ────────────────────────────────── */
+
+.markdown-preview-view table,
+.markdown-rendered table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    border: 1px solid rgba(10, 107, 78, 0.22) !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+.markdown-preview-view th,
+.markdown-rendered th {
+    background-color: #0a6b4e !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    padding: 10px 16px !important;
+    border: none !important;
+    letter-spacing: 0.3px !important;
+}
+
+.markdown-preview-view tr:nth-child(odd) td,
+.markdown-rendered tr:nth-child(odd) td {
+    background-color: rgba(10, 107, 78, 0.03) !important;
+}
+
+.markdown-preview-view tr:nth-child(even) td,
+.markdown-rendered tr:nth-child(even) td {
+    background-color: rgba(10, 107, 78, 0.07) !important;
+}
+
+.markdown-preview-view td,
+.markdown-rendered td {
+    padding: 8px 16px !important;
+    border-top: 1px solid rgba(10, 107, 78, 0.10) !important;
+    border-left: none !important;
+    border-right: none !important;
+    color: #1a1a1a !important;
+}
+
+.markdown-preview-view td:first-child,
+.markdown-rendered td:first-child {
+    font-weight: 600 !important;
+    color: #0a4d38 !important;
+}
+
+.markdown-preview-view tr:hover td,
+.markdown-rendered tr:hover td {
+    background-color: rgba(10, 107, 78, 0.12) !important;
+}
+
+/* 表格内 bold — 排除暖棕，表头用白色，表体用正文色 */
+.markdown-preview-view th strong,
+.markdown-rendered th strong,
+.markdown-preview-view th b,
+.markdown-rendered th b {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+.markdown-preview-view td strong,
+.markdown-rendered td strong,
+.markdown-preview-view td b,
+.markdown-rendered td b {
+    color: #0a3d2b !important;
+    font-weight: 700 !important;
+}
