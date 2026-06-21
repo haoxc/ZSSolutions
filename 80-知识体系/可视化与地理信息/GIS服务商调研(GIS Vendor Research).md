@@ -605,13 +605,13 @@ ArcGIS Utility Network 平台能力
 
 以下是与 JBFG 项目最相关的架构决策点：
 
-| 决策问题 | SuperMap 做法 | MapGIS 做法 | Esri UN 做法 | JBFG 建议 |
-|---------|-------------|------------|------------|---------|
-| **空间数据是独立引擎还是融合在平台中？** | 独立引擎层（iServer） | 独立引擎层（IGServer） | 独立引擎（ArcGIS Enterprise） | **独立GIS引擎，通过USDF抽象接口层解耦** |
-| **对象管理如何组织？** | 图层+要素+属性表 | 图层+要素+属性表 | Feature Class+规则 | **USDF独立对象注册层(GUID+标准属性集)** |
-| **AI能力如何集成？** | AIF框架，支持模型即插即用 | IGServer-S独立AI服务 | GeoAI扩展 | **USDF以标准API供给数据，模型即插即用** |
-| **三维可视化谁承担？** | iClient/S3M/UE SDK | Client-JS/M3D | ArcGIS Scene | **Cesium+Three.js双引擎** |
-| **多场站扩展如何支持？** | 云原生+K8s集群 | 云平台+微服务 | Enterprise集群 | **按USDF对象注册模式扩展，一个注册中心管理多场站** |
+| 决策问题                   | SuperMap 做法        | MapGIS 做法        | Esri UN 做法              | JBFG 建议                       |
+| ---------------------- | ------------------ | ---------------- | ----------------------- | ----------------------------- |
+| **空间数据是独立引擎还是融合在平台中？** | 独立引擎层（iServer）     | 独立引擎层（IGServer）  | 独立引擎（ArcGIS Enterprise） | **独立GIS引擎，通过USDF抽象接口层解耦**     |
+| **对象管理如何组织？**          | 图层+要素+属性表          | 图层+要素+属性表        | Feature Class+规则        | **USDF独立对象注册层(GUID+标准属性集)**   |
+| **AI能力如何集成？**          | AIF框架，支持模型即插即用     | IGServer-S独立AI服务 | GeoAI扩展                 | **USDF以标准API供给数据，模型即插即用**     |
+| **三维可视化谁承担？**          | iClient/S3M/UE SDK | Client-JS/M3D    | ArcGIS Scene            | **Cesium+Three.js双引擎**        |
+| **多场站扩展如何支持？**         | 云原生+K8s集群          | 云平台+微服务          | Enterprise集群            | **按USDF对象注册模式扩展，一个注册中心管理多场站** |
 
 ---
 
