@@ -1,0 +1,35 @@
+graph TB
+    subgraph 矛盾["三大结构性矛盾"]
+        C1["矛盾1<br/>设备多样 vs 管理统一<br/>📡 百万测点<br/>协议不兼容"]
+        C2["矛盾2<br/>实时控制 vs 数据洪流<br/>⚡ 端到端≤1s<br/>暂态≤100ms"]
+        C3["矛盾3<br/>智能预期 vs 数字基座<br/>🤖 AI即插即用<br/>标准化对象"]
+    end
+
+    C1 --> USDF
+    C2 --> USDF
+    C3 --> USDF
+
+    subgraph USDF["USDF 统一空间数据底座"]
+        direction LR
+        R1["对象注册"]
+        R2["空间参照"]
+        R3["属性标准化"]
+        R4["统一API"]
+    end
+
+    USDF --> P1["P1 暂态通道<br/>GOOSE ≤100ms"]
+    USDF --> P2["P2 稳态通道<br/>IEC104 ≤1s"]
+    USDF --> P3["P3 历史通道<br/>RESTful ≤5s"]
+
+    P1 --> O1["可靠<br/>暂态独立通道"]
+    P2 --> O2["扩展<br/>station_id 预留"]
+    P3 --> O3["AI友好<br/>算法不碰采集层"]
+
+    style 矛盾 fill:#f0f4ff,stroke:#1B3A5C
+    style USDF fill:#e8f4e8,stroke:#2B5C2B,stroke-width:3px
+    style C1 fill:#ffe8e8,stroke:#cc3333
+    style C2 fill:#ffe8e8,stroke:#cc3333
+    style C3 fill:#ffe8e8,stroke:#cc3333
+    style P1 fill:#e8f0ff,stroke:#1B3A5C
+    style P2 fill:#e8f0ff,stroke:#1B3A5C
+    style P3 fill:#e8f0ff,stroke:#1B3A5C

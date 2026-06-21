@@ -1,0 +1,41 @@
+graph TB
+    subgraph L0["L0 暂态层 · ≤100ms"]
+        direction LR
+        L0a["GOOSE 协议"]
+        L0b["I 区物理隔离"]
+        L0c["构网型控制"]
+        L0d["频率响应"]
+    end
+
+    subgraph L1["L1 实时层 · ≤1s"]
+        direction LR
+        L1a["IEC104 采集"]
+        L1b["Kafka 流处理"]
+        L1c["Redis 缓存"]
+        L1d["WebSocket 推送"]
+    end
+
+    subgraph L2["L2 近实时层 · ≤5s"]
+        direction LR
+        L2a["时序数据库"]
+        L2b["历史查询"]
+        L2c["聚合统计"]
+        L2d["API Gateway"]
+    end
+
+    subgraph L3["L3 历史层 · ≤30s"]
+        direction LR
+        L3a["ClickHouse OLAP"]
+        L3b["报表生成"]
+        L3c["AI 批量推理"]
+        L3d["数据归档"]
+    end
+
+    L0 --> L1
+    L1 --> L2
+    L2 --> L3
+
+    style L0 fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style L1 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style L2 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style L3 fill:#e3f2fd,stroke:#1565c0,stroke-width:2px

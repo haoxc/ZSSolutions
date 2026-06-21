@@ -1,0 +1,57 @@
+graph LR
+    subgraph 建["① 建 F1<br/>一体化数智场站"]
+        direction TB
+        F1a["全要素建模"]
+        F1b["三维可视化"]
+        F1c["数据接入"]
+        F1d["低代码组态"]
+    end
+
+    subgraph 控["② 控 F2<br/>功率协同优化"]
+        direction TB
+        F2a["暂态功率协同"]
+        F2b["频率快速控制"]
+    end
+
+    subgraph 评["③ 评 F3<br/>透明场站"]
+        direction TB
+        F3a["单机并网评价"]
+        F3b["场站综合评价"]
+        F3c["协同性能评价"]
+    end
+
+    subgraph 检["④ 检 F4<br/>智能运维"]
+        direction TB
+        F4a["变电站 AI 巡检"]
+        F4b["输电线路监测"]
+        F4c["光伏缺陷识别"]
+    end
+
+    subgraph 管["⑤ 管 F5<br/>数字运维管理"]
+        direction TB
+        F5a["360°实时监控"]
+        F5b["在线 AI 诊断"]
+        F5c["智慧运维优化"]
+    end
+
+    建 -->|"空间对象<br/>注册到USDF"| 控
+    控 -->|"实时控制<br/>反馈更新"| 评
+    评 -->|"性能评价<br/>触发巡检"| 检
+    检 -->|"缺陷工单<br/>驱动修复"| 管
+    管 -.->|"运维数据<br/>反哺建模"| 建
+
+    subgraph USDF["USDF 统一空间数据底座（底层支撑）"]
+    end
+
+    USDF -.-> 建
+    USDF -.-> 控
+    USDF -.-> 评
+    USDF -.-> 检
+    USDF -.-> 管
+
+    style 建 fill:#e3f2fd,stroke:#1565c0
+    style 控 fill:#fff3e0,stroke:#e65100
+    style 评 fill:#f3e5f5,stroke:#7b1fa2
+    style 检 fill:#e8f5e9,stroke:#2e7d32
+    style 管 fill:#fce4ec,stroke:#c62828
+    style USDF fill:#eceff1,stroke:#37474f,stroke-width:2px
