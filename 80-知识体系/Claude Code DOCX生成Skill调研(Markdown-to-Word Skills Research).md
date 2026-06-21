@@ -161,6 +161,6 @@ source: Web 搜索 + 官方仓库 + npm/mcpmarket/skillsmp
 
 ## 四、关联
 
-- JBFG 方案书：[[冀北风光储数智化生产支撑与数字孪生解决方案-V1]]
+- JBFG 方案书：[[v1-冀北风光储数智化生产支撑与数字孪生解决方案]]
 - 方案撰写规范调研：[[方案书撰写规范与章节结构调研(Proposal Writing Standards Research)]]
 - 父目录：[[80-知识体系|知识体系]]
