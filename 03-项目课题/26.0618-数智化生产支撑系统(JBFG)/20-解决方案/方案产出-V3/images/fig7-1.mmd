@@ -1,0 +1,61 @@
+graph TB
+    subgraph LEGEND["风险等级"]
+        L1["🔴 阻断"]
+        L2["🟡 高"]
+        L3["🟢 低"]
+    end
+
+    subgraph RT["技术风险 (RT) · 8项"]
+        subgraph RT1["🔴 阻断 2项"]
+            RT1a["RT1 百万测点写入瓶颈"]
+        end
+        subgraph RT2["🟡 高 5项"]
+            RT2a["RT2 500并发定义模糊"]
+            RT2b["RT3 暂态通信100节点"]
+            RT2c["RT4 AI误检率30%"]
+            RT2d["RT5 端到端≤1s含渲染"]
+            RT2e["RT6 仿真模块未评估"]
+        end
+        subgraph RT3["🟢 低 1项"]
+            RT3a["RT7 1kHz采集精度"]
+            RT3b["RT8 图片存储200万张"]
+        end
+    end
+
+    subgraph RB["业务风险 (RB) · 5项"]
+        subgraph RB1["🔴 阻断 2项"]
+            RB1a["RB1 并发定义模糊致验收争议"]
+            RB1b["RB2 仿真模块遗漏致报价漏项"]
+        end
+        subgraph RB2["🟡 高 3项"]
+            RB2a["RB3 AI指标不达标致验收失败"]
+            RB2b["RB4 采集精度责任归属纠纷"]
+            RB2c["RB5 MTBF验收周期不可行"]
+        end
+    end
+
+    subgraph RI["实施风险 (RI) · 5项"]
+        subgraph RI1["🔴 阻断 1项"]
+            RI1a["RI1 仿真团队能力缺口"]
+        end
+        subgraph RI2["🟡 高 3项"]
+            RI2a["RI2 GOOSE协议集成复杂度"]
+            RI2b["RI3 百万测点接入工期压力"]
+            RI2c["RI4 500并发压测环境"]
+        end
+        subgraph RI3["🟢 低 1项"]
+            RI3a["RI5 Python+Matlab双语言SDK"]
+        end
+    end
+
+    style RT1 fill:#ffcdd2,stroke:#c62828
+    style RT2 fill:#fff9c4,stroke:#f9a825
+    style RT3 fill:#c8e6c9,stroke:#2e7d32
+    style RB1 fill:#ffcdd2,stroke:#c62828
+    style RB2 fill:#fff9c4,stroke:#f9a825
+    style RI1 fill:#ffcdd2,stroke:#c62828
+    style RI2 fill:#fff9c4,stroke:#f9a825
+    style RI3 fill:#c8e6c9,stroke:#2e7d32
+    style RT fill:#e3f2fd,stroke:#1565c0
+    style RB fill:#f3e5f5,stroke:#7b1fa2
+    style RI fill:#fff3e0,stroke:#e65100

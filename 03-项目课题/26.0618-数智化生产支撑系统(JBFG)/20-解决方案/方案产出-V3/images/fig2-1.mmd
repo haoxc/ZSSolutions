@@ -1,0 +1,18 @@
+graph TB
+    subgraph SCQA["SCQA 分析框架"]
+        direction TB
+        S["<b>S 情境</b><br/>冀北基地多系统并行<br/>风机SCADA┃光伏监控┃储能EMS<br/>各自独立·坐标系不统一"]
+        C["<b>C 挑战</b><br/>三大结构性矛盾<br/>📊 数据: 百万测点 实时接入<br/>⚡ 实时: 端到端≤1s 暂态≤100ms<br/>🔒 可靠: MTBF≥10,000h 安全分区"]
+        Q["<b>Q 核心问题</b><br/>如何在单一平台中<br/>同时解决三个矛盾？"]
+        A["<b>A 方案答案</b><br/>USDF 空间对象操作系统<br/>三通道分流<br/>P1暂态┃P2稳态┃P3历史"]
+    end
+
+    S --> C
+    C --> Q
+    Q --> A
+
+    style SCQA fill:#f8f9fa,stroke:#1B3A5C,stroke-width:2px
+    style S fill:#e3f2fd,stroke:#1B3A5C
+    style C fill:#fff3e0,stroke:#e65100
+    style Q fill:#fce4ec,stroke:#c62828
+    style A fill:#e8f5e9,stroke:#2e7d32

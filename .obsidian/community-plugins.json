@@ -29,5 +29,6 @@
   "mermaid-tools",
   "obsidian-markmind",
   "obsidian-plantuml",
-  "obsidian-chartsview-plugin"
+  "obsidian-chartsview-plugin",
+  "obsidian-vega"
 ]

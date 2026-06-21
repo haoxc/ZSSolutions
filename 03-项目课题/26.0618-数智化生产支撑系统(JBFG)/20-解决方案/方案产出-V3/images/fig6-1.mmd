@@ -1,0 +1,23 @@
+gantt
+    title 项目实施甘特图（4个月，三阶段交付）
+    dateFormat  YYYY-MM-DD
+    axisFormat  %m月%d日
+
+    section 一阶段：底座先行
+    USDF 空间底座搭建           :a1, 2026-07-01, 20d
+    数据采集与协议适配            :a2, after a1, 15d
+    安全分区网络部署              :a3, 2026-07-10, 25d
+    基础平台联调测试              :a4, after a2, 10d
+
+    section 二阶段：业务渐进
+    F1 一体化场站平台             :b1, after a2, 20d
+    F5 数字运维管理               :b2, after a2, 18d
+    F2 功率协同优化               :b3, after a4, 18d
+    F3 透明场站评价               :b4, after a4, 15d
+    F4 智能运维 AI                :b5, after b1, 18d
+
+    section 三阶段：联调上线
+    全系统集成测试                :c1, after b5, 12d
+    性能压测与调优                :c2, after c1, 8d
+    现场部署与培训                :c3, after c2, 10d
+    试运行与验收                  :c4, after c3, 10d
