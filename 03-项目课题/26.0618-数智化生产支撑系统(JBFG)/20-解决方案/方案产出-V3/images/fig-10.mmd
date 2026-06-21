@@ -1,0 +1,14 @@
+flowchart TB
+    subgraph L4["④ 数据质量"]
+        Q1["完整性校验 / 时效性监控 / 异常值检测 / 质量报告"]
+    end
+    subgraph L3["③ 数据血缘"]
+        L3t["测点→Kafka Topic→时序表→API 字段，全链路可追溯"]
+    end
+    subgraph L2["② 元数据目录"]
+        L2t["场站→区域→设备→部件→测点，五级数据目录 + 搜索"]
+    end
+    subgraph L1["① 主数据管理（USDF 已有）"]
+        L1t["全局唯一 ID + 标准属性集 + 生命周期 + 拓扑关系"]
+    end
+    L1 --> L2 --> L3 --> L4

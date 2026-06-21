@@ -1,0 +1,14 @@
+flowchart TB
+    subgraph L4["④ 业务健康监控"]
+        Q1["设备在线率 / 数据完整率 / API 可用性 / 告警风暴检测"]
+    end
+    subgraph L3["③ 安全审计（等保二级必选）"]
+        L3t["操作审计 / 登录审计 / 数据访问审计 / 权限变更审计"]
+    end
+    subgraph L2["② 应用性能监控（APM）"]
+        L2t["分布式追踪 (gRPC/Kafka) / 慢查询 / 内存/线程 / GC"]
+    end
+    subgraph L1["① 基础设施监控"]
+        L1t["CPU/内存/磁盘/网络 / 容器健康 / Kafka Lag / 连接池"]
+    end
+    L1 --> L2 --> L3 --> L4

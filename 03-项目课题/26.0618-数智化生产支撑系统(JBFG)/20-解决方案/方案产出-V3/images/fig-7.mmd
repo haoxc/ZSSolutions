@@ -1,0 +1,16 @@
+flowchart TB
+    USDF["数字孪生底座 USDF"]
+    USDF --> F1["F1 一体化场站【建】\n三维建模·数据接入·低代码组态"]
+    USDF --> F2["F2 协同优化【控】\n有功无功协同·暂态控制·三道防误"]
+    USDF --> F3["F3 透明场站【评】\n并网性能·发电性能·跟构网对比"]
+    F1 --> BUS{统一数据总线}
+    F2 --> BUS
+    F3 --> BUS
+    BUS --> F4["F4 智能运维【检】\n升压站·光伏·线路·储能 AI巡检"]
+    BUS --> F5["F5 数字运维【管】\n360°监控·智能诊断·运维门户"]
+    F4 --> LOOP["闭环反馈"]
+    F5 --> LOOP
+    LOOP -.预测性维护驱动.-> USDF
+    style USDF fill:#1f4e79,color:#fff
+    style BUS fill:#ed7d31,color:#fff
+    style LOOP fill:#2e7d32,color:#fff

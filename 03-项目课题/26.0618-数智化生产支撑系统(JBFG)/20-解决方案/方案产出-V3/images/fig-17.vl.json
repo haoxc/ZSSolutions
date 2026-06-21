@@ -1,0 +1,19 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": "项目报价构成（220万元含税）",
+  "data": {"values": [
+    {"项目": "定制开发", "金额": 93},
+    {"项目": "三维建模", "金额": 40},
+    {"项目": "硬件设备", "金额": 28},
+    {"项目": "软件平台", "金额": 23},
+    {"项目": "实施培训", "金额": 16},
+    {"项目": "运维质保", "金额": 11},
+    {"项目": "GIS数据", "金额": 9}
+  ]},
+  "mark": {"type": "arc", "innerRadius": 60, "stroke": "#fff"},
+  "encoding": {
+    "theta": {"field": "金额", "type": "quantitative"},
+    "color": {"field": "项目", "type": "nominal", "scale": {"range": ["#1f4e79","#2e75b6","#ed7d31","#a6a6a6","#70ad47","#ffc000","#9e480e"]}},
+    "tooltip": [{"field": "项目"}, {"field": "金额", "title": "金额(万元)"}]
+  }
+}

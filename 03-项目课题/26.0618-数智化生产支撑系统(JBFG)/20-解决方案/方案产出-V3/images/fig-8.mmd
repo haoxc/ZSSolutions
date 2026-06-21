@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant AI as AI引擎
+    participant WO as 工单中心
+    participant OP as 运维人员
+    participant RV as 审核人
+    AI->>WO: 告警触发
+    WO->>OP: 自动派单
+    OP->>OP: 现场处置
+    OP->>WO: 结果回传
+    WO->>RV: 提交待审核
+    RV->>RV: 复核+修正
+    RV->>WO: 审核通过
+    WO->>WO: 关闭归档

@@ -1,0 +1,16 @@
+flowchart TB
+    subgraph L4["展示层"]
+    P1["三维 Web 门户 / 大屏 / 移动端 / 运维门户"]
+    end
+    subgraph L3["业务层"]
+    B1["F1 一体化场站│F2 协同优化│F3 透明场站│F4 智能运维│F5 数字运维"]
+    end
+    subgraph L2["平台层 (USDF)"]
+    U1["对象注册 + 空间参照 + 属性标准化 + 拓扑关系"]
+    U2["Kafka + ClickHouse + Postgres+PostGIS + Redis"]
+    end
+    subgraph L1["采集层"]
+    C1["IEC104 / Modbus TCP / GOOSE / RTSP-GB28181 / MQTT"]
+    end
+    L4 -->|RESTful API| L3 -->|gRPC + Kafka| L2 -->|统一采集适配器| L1
+    style L2 fill:#1f4e79,color:#fff

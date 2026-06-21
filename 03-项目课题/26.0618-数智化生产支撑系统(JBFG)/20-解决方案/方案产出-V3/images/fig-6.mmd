@@ -1,0 +1,21 @@
+flowchart LR
+    subgraph 边缘["边缘端·场站II区GPU"]
+    E1["实时CV推理"]
+    E2["告警生成"]
+    E3["边缘模型热更新"]
+    end
+    subgraph 云["云端·中心云GPU集群"]
+    C1["模型训练/微调"]
+    C2["版本管理+AB测试"]
+    C3["数据集管理"]
+    end
+    subgraph 业务["业务端·III区运维门户"]
+    B1["人工复核"]
+    B2["标注反馈"]
+    B3["闭环追踪"]
+    end
+    边缘 <-->|USDF标准API\n gRPC/Kafka| 云
+    云 <--> 业务
+    style 边缘 fill:#ed7d31,color:#fff
+    style 云 fill:#1f4e79,color:#fff
+    style 业务 fill:#2e7d32,color:#fff

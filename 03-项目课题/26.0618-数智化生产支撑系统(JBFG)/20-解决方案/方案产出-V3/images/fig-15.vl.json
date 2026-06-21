@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": "四层 SLA 延迟边界（对数轴，毫秒）",
+  "data": {"values": [
+    {"层级": "L0 暂态(GOOSE直通)", "延迟ms": 100, "场景": "紧急调频/防误保护"},
+    {"层级": "L1 实时(采集→Kafka→Redis→API)", "延迟ms": 1000, "场景": "实时监控/告警推送"},
+    {"层级": "L2 近实时(含三维渲染)", "延迟ms": 3000, "场景": "三维交互/驾驶舱"},
+    {"层级": "L3 历史(时序库聚合)", "延迟ms": 5000, "场景": "报表/趋势/AI训练"}
+  ]},
+  "mark": {"type": "bar"},
+  "encoding": {
+    "y": {"field": "层级", "type": "nominal", "sort": "-x", "axis": {"title": null}},
+    "x": {"field": "延迟ms", "type": "quantitative", "scale": {"type": "log"}, "axis": {"title": "延迟上限 (ms, 对数轴)"}},
+    "color": {"field": "层级", "type": "nominal", "legend": null, "scale": {"range": ["#c00000", "#ed7d31", "#1f4e79", "#2e7d32"]}},
+    "tooltip": [{"field": "场景"}, {"field": "延迟ms"}]
+  }
+}

@@ -1,0 +1,10 @@
+flowchart TB
+    S["S 现状\n冀北基地多系统并行\n风机SCADA·光伏监控·储能EMS\n各自独立·坐标系不统一"]
+    C["C 挑战\n数据:百万测点 | 实时:≤1s | 可靠:10000h"]
+    Q["Q 问题\n如何在单一平台中\n同时解决三个痛点？"]
+    A["A 答案\nUSDF 空间对象操作系统\n三通道分流：P1暂态·P2稳态·P3历史"]
+    S --> C --> Q --> A
+    style S fill:#a6a6a6,color:#fff
+    style C fill:#c00000,color:#fff
+    style Q fill:#ed7d31,color:#fff
+    style A fill:#1f4e79,color:#fff

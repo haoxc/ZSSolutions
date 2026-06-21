@@ -1,0 +1,19 @@
+flowchart TB
+    subgraph 中心云["中心云（集团侧）"]
+    GPU["GPU 集群\nAI 训练"]
+    BD["大数据集群\nClickHouse/Postgres"]
+    DASH["全局驾驶舱"]
+    end
+    subgraph 边缘["场站边缘（冀北基地）"]
+    direction LR
+    Z1["安全I区·控制区\nGOOSE暂态≤100ms\n防误保护·本地兜底"]
+    Z2["安全II区·非控生产区\nIEC104实时采集\nRedis缓存·GPU边缘推理\nAGC/AVC·断网自持≥2h"]
+    Z3["安全III区·管理信息区\n三维Web门户\n工单/报表/大屏"]
+    end
+    中心云 -.广域网4G/5G/专线.-> 边缘
+    Z1 -->|正向隔离| Z2
+    Z2 -->|防火墙| Z3
+    边缘 --> DEV["设备层：风机SCADA/光伏监控/储能EMS等"]
+    style Z1 fill:#c00000,color:#fff
+    style Z2 fill:#ed7d31,color:#fff
+    style Z3 fill:#1f4e79,color:#fff

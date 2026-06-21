@@ -1,0 +1,26 @@
+flowchart TB
+    subgraph 三大结构性痛点
+    M1["痛点1\n设备多样 vs 管理统一\n百万测点·协议不兼容"]
+    M2["痛点2\n实时控制 vs 数据洪流\n端到端≤1s·暂态≤100ms"]
+    M3["痛点3\n智能预期 vs 数字基座\nAI即插即用·标准化对象"]
+    end
+    M1 --> USDF
+    M2 --> USDF
+    M3 --> USDF
+    subgraph USDF["USDF 统一空间数据底座"]
+    direction LR
+    P1["P1 暂态通道 ≤100ms"]
+    P2["P2 稳态通道 ≤1s"]
+    P3["P3 历史通道 ≤5s"]
+    API["北向 API · RESTful"]
+    end
+    USDF --> R1["可靠\n暂态独立通道"]
+    USDF --> R2["扩展\nstation_id 预留"]
+    USDF --> R3["AI友好\n算法不碰采集层"]
+    style USDF fill:#1f4e79,color:#fff
+    style M1 fill:#c00000,color:#fff
+    style M2 fill:#c00000,color:#fff
+    style M3 fill:#c00000,color:#fff
+    style R1 fill:#2e7d32,color:#fff
+    style R2 fill:#2e7d32,color:#fff
+    style R3 fill:#2e7d32,color:#fff

@@ -1,0 +1,25 @@
+flowchart TB
+    subgraph 展示层["展示层"]
+        WEB["三维Web门户(Cesium+Three.js) / 大屏 / 移动端"]
+    end
+    subgraph 业务层["业务层"]
+        BIZ["F1场站平台 | F2协同优化 | F3透明场站 | F4智能运维 | F5数字运维"]
+    end
+    subgraph USDF["USDF 平台层"]
+        OBJ["对象注册 / 空间参照 / 属性标准化 / 拓扑关系"]
+        DB[("Kafka + ClickHouse + PostGIS + Redis")]
+    end
+    subgraph 采集层["采集层"]
+        COL["IEC104 / Modbus TCP / GOOSE / RTSP-GB28181 / MQTT"]
+    end
+    subgraph 设备层["设备层"]
+        DEV["风机SCADA · 光伏监控 · 储能EMS · SVG/升压站 · 视频"]
+    end
+    展示层 -->|RESTful API| 业务层
+    业务层 -->|gRPC+Kafka| USDF
+    USDF -->|统一采集适配器| 采集层
+    采集层 --> 设备层
+    运维监控["运维监控（跨层）\nPrometheus + SkyWalking + ELK"] -.-> 展示层
+    运维监控 -.-> 业务层
+    运维监控 -.-> USDF
+    运维监控 -.-> 采集层

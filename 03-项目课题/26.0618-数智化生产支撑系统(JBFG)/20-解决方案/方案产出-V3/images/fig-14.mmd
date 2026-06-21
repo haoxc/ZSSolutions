@@ -1,0 +1,9 @@
+flowchart LR
+    Z1["I 区（控制区）\nGOOSE暂态控制\n防误保护·本地兜底"]
+    Z2["II 区（非控生产区）\nIEC104实时采集\nKafka+Redis+GPU推理"]
+    Z3["III 区（管理信息区）\nWeb门户/大屏\n工单/报表/三维"]
+    Z1 -->|正向隔离·物理单向| Z2
+    Z2 -->|防火墙| Z3
+    style Z1 fill:#c00000,color:#fff
+    style Z2 fill:#ed7d31,color:#fff
+    style Z3 fill:#1f4e79,color:#fff
