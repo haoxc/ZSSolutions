@@ -1,0 +1,29 @@
+%%{init: {"theme": "base", "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 70, "rankSpacing": 80}, "themeVariables": {"fontFamily": "Microsoft YaHei, Arial", "primaryColor": "#eef4fb", "primaryTextColor": "#1f2937", "primaryBorderColor": "#2563eb", "lineColor": "#64748b", "tertiaryColor": "#f8fafc"}}}%%
+flowchart LR
+    subgraph NR["南瑞运维管理平台<br/>常规运维"]
+        NR1["工单管理 / 值班管理 / 两票管理"]
+        NR2["报表管理 / 台账管理"]
+        NR3["协同优化 / 构网型评价"]
+    end
+
+    subgraph INT["双向协同集成层"]
+        PAGE["页面双向嵌入<br/>iframe / 微前端<br/>统一菜单路由<br/>SSO Token 传递"]
+        API["数据接口互通<br/>RESTful 数据流"]
+    end
+
+    subgraph ZS["我方三维智能化平台<br/>三维智能"]
+        ZS1["三维可视化"]
+        ZS2["AI 巡检"]
+    end
+
+    NR <-->|页面嵌入 / 菜单路由 / SSO| PAGE
+    PAGE <-->|页面嵌入 / 菜单路由 / SSO| ZS
+    NR <-->|RESTful 数据流| API
+    API <-->|RESTful 数据流| ZS
+
+    classDef nr fill:#fff7ed,stroke:#ea580c,color:#7c2d12,stroke-width:2px;
+    classDef int fill:#f8fafc,stroke:#64748b,color:#334155,stroke-width:2px;
+    classDef zs fill:#dbeafe,stroke:#2563eb,color:#1e3a8a,stroke-width:2px;
+    class NR1,NR2,NR3 nr;
+    class PAGE,API int;
+    class ZS1,ZS2 zs;

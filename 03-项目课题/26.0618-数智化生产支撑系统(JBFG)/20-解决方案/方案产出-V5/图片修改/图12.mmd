@@ -1,0 +1,23 @@
+%%{init: {"theme": "base", "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 64, "rankSpacing": 72}, "themeVariables": {"fontFamily": "Microsoft YaHei, Arial", "primaryColor": "#eef4fb", "primaryTextColor": "#1f2937", "primaryBorderColor": "#2563eb", "lineColor": "#64748b", "tertiaryColor": "#f8fafc"}}}%%
+flowchart LR
+    TOP["顶栏<br/>Logo ｜ 场站选择器 ｜ 全局搜索 ｜ 告警铃铛 ｜ 用户头像"]
+
+    TREE["左侧场景树<br/>▼ 实时监控：全场态势 / 风机监控 / 光伏监控 / 储能监控<br/>▼ 智能运维：告警中心 / 工单管理 / 巡检任务<br/>▼ 分析评价：并网性能 / 发电评估<br/>▼ 系统管理：权限管理 / 组态配置"]
+
+    WORK["中央工作区<br/>三维场景 / 数据面板 / 图表<br/>按左侧菜单切换渲染"]
+
+    STATUS["底部状态栏<br/>在线设备数 ｜ 今日告警 ｜ 系统时间"]
+
+    TOP --> TREE
+    TOP -.上方连线.-> WORK
+    TREE --> WORK
+    WORK --> STATUS
+
+    classDef top fill:#dbeafe,stroke:#2563eb,color:#1e3a8a,stroke-width:2px;
+    classDef nav fill:#f8fafc,stroke:#64748b,color:#1f2937,stroke-width:2px;
+    classDef work fill:#1f4e79,stroke:#0f2f4f,color:#ffffff,stroke-width:2px;
+    classDef status fill:#ecfdf5,stroke:#16a34a,color:#14532d,stroke-width:2px;
+    class TOP top;
+    class TREE nav;
+    class WORK work;
+    class STATUS status;

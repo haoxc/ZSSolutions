@@ -1,0 +1,41 @@
+%%{init: {"theme": "base", "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 56, "rankSpacing": 72}, "themeVariables": {"fontFamily": "Microsoft YaHei, Arial", "primaryColor": "#eef4fb", "primaryTextColor": "#1f2937", "primaryBorderColor": "#2563eb", "lineColor": "#64748b", "tertiaryColor": "#f8fafc"}}}%%
+flowchart LR
+    OPS["运维监控（跨层）<br/>Prometheus + SkyWalking + ELK"]
+
+    subgraph 设备层["设备层"]
+        DEV["风机SCADA · 光伏监控<br/>储能EMS · SVG/升压站 · 视频"]
+    end
+
+    subgraph 采集层["采集层"]
+        COL["IEC104 / Modbus TCP / GOOSE<br/>RTSP-GB28181 / MQTT"]
+    end
+
+    subgraph USDF["USDF 平台层"]
+        OBJ["对象注册 / 空间参照<br/>属性标准化 / 拓扑关系"]
+        DB[("Kafka + ClickHouse<br/>PostGIS + Redis")]
+    end
+
+    subgraph 业务层["业务层"]
+        BIZ["F1场站平台<br/>F2协同优化<br/>F3透明场站<br/>F4智能运维<br/>F5数字运维"]
+    end
+
+    subgraph 展示层["展示层"]
+        WEB["三维Web门户<br/>Cesium + Three.js<br/>大屏 / 移动端"]
+    end
+
+    设备层 --> 采集层
+    采集层 -->|"统一采集适配器"| USDF
+    USDF -->|"gRPC + Kafka"| 业务层
+    业务层 -->|"RESTful API"| 展示层
+
+    OPS -.-> 展示层
+    OPS -.-> 业务层
+    OPS -.-> USDF
+    OPS -.-> 采集层
+
+    classDef layer fill:#eef4fb,stroke:#2563eb,color:#1f2937,stroke-width:2px;
+    classDef usdf fill:#1f4e79,stroke:#0f2f4f,color:#ffffff,stroke-width:2px;
+    classDef ops fill:#f8fafc,stroke:#64748b,color:#334155,stroke-dasharray: 5 5,stroke-width:2px;
+    class WEB,BIZ,COL,DEV layer;
+    class OBJ,DB usdf;
+    class OPS ops;
