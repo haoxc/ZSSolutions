@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1480" viewBox="0 0 1200 1480">
+  <defs>
+    <linearGradient id="topBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#184f9e"/>
+      <stop offset="48%" stop-color="#1f5fae"/>
+      <stop offset="100%" stop-color="#2ca9c9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#9fb6c8" flood-opacity="0.22"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#6b7280"/>
+    </marker>
+    <style>
+      .bg { fill: #f3f7fb; }
+      .panel { fill: #ffffff; stroke: #cfd9e6; stroke-width: 2; }
+      .frame { fill: #fbfdff; stroke: #d7e1eb; stroke-width: 2; }
+      .outer { fill: #fbfeff; stroke: #38a9c6; stroke-width: 2; rx: 14; ry: 14; }
+      .inner { fill: #ffffff; stroke: #2ca9c9; stroke-width: 2; rx: 10; ry: 10; }
+      .title { font: 700 28px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #ffffff; }
+      .layerTitle { font: 700 22px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #111827; }
+      .body { font: 600 17px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #1f2937; }
+      .line { stroke: #6b7280; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="1480"/>
+
+  <rect class="panel" x="86" y="52" width="1028" height="1378" rx="38" filter="url(#shadow)"/>
+  <rect x="126" y="72" width="948" height="74" fill="url(#topBar)"/>
+  <text class="title" x="168" y="118">数据治理四层体系图</text>
+
+  <rect class="frame" x="126" y="146" width="948" height="1236"/>
+
+  <rect class="outer" x="180" y="186" width="840" height="220"/>
+  <text class="layerTitle" x="600" y="232" text-anchor="middle">① 数据</text>
+  <rect class="inner" x="286" y="256" width="628" height="112"/>
+  <text class="body" x="600" y="304" text-anchor="middle">业务数据 / 实时数据 / 日志数据</text>
+  <text class="body" x="600" y="340" text-anchor="middle">业务系统采集入库、接口入库、原始数据沉淀</text>
+
+  <path class="line" d="M600 406 L600 468"/>
+
+  <rect class="outer" x="180" y="492" width="840" height="220"/>
+  <text class="layerTitle" x="600" y="538" text-anchor="middle">② 元数据</text>
+  <rect class="inner" x="286" y="562" width="628" height="112"/>
+  <text class="body" x="600" y="610" text-anchor="middle">对象目录 / 接口目录 / 字段目录</text>
+  <text class="body" x="600" y="646" text-anchor="middle">统一描述、统一检索、统一索引管理</text>
+
+  <path class="line" d="M600 712 L600 774"/>
+
+  <rect class="outer" x="180" y="798" width="840" height="220"/>
+  <text class="layerTitle" x="600" y="844" text-anchor="middle">③ 数据血缘</text>
+  <rect class="inner" x="286" y="868" width="628" height="112"/>
+  <text class="body" x="600" y="916" text-anchor="middle">采集源 -> 接入服务 -> 转换处理 -> 业务消费</text>
+  <text class="body" x="600" y="952" text-anchor="middle">全链路追踪、问题定位、结果可追溯</text>
+
+  <path class="line" d="M600 1018 L600 1080"/>
+
+  <rect class="outer" x="180" y="1104" width="840" height="220"/>
+  <text class="layerTitle" x="600" y="1150" text-anchor="middle">④ 数据质量</text>
+  <rect class="inner" x="286" y="1174" width="628" height="112"/>
+  <text class="body" x="600" y="1222" text-anchor="middle">完整性 / 时效性 / 一致性监控</text>
+  <text class="body" x="600" y="1258" text-anchor="middle">异常检测、质量报告、告警闭环</text>
+</svg>

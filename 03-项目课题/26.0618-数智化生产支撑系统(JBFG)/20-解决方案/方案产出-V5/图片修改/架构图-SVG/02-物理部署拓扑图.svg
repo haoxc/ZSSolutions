@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <defs>
+    <linearGradient id="topBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#184f9e"/>
+      <stop offset="48%" stop-color="#1f5fae"/>
+      <stop offset="100%" stop-color="#2ca9c9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#9fb6c8" flood-opacity="0.24"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#4b5563"/>
+    </marker>
+    <style>
+      .bg { fill: #f3f7fb; }
+      .panel { fill: #ffffff; stroke: #cfd9e6; stroke-width: 2; }
+      .frame { fill: #fbfdff; stroke: #d7e1eb; stroke-width: 2; }
+      .softPanel { fill: #fbfeff; stroke: #38a9c6; stroke-width: 2; }
+      .moduleBox { fill: #ffffff; stroke: #2ca9c9; stroke-width: 2; }
+      .deviceBox { fill: #ffffff; stroke: #2ca9c9; stroke-width: 2; }
+      .title { font: 700 28px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #ffffff; }
+      .sectionTitle { font: 700 28px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #111827; }
+      .sectionText { font: 600 18px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #4b5563; }
+      .boxTitleDark { font: 700 18px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #1f2937; }
+      .boxTextDark { font: 500 16px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #334155; }
+      .boxTitleLight { font: 700 18px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #1f2937; }
+      .boxTextLight { font: 500 16px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #334155; }
+      .linkText { font: 600 16px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #475569; }
+      .hintLabel { font: 600 15px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #4b5563; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1800" height="1200"/>
+
+  <rect class="panel" x="72" y="42" width="1656" height="1116" rx="38" filter="url(#shadow)"/>
+  <rect x="112" y="62" width="1576" height="74" fill="url(#topBar)"/>
+  <text class="title" x="154" y="108">海上风电数字孪生基座物理部署拓扑图</text>
+
+  <rect class="frame" x="112" y="136" width="1576" height="980"/>
+
+  <rect class="softPanel" x="590" y="170" width="620" height="220"/>
+  <text class="sectionTitle" x="900" y="218" text-anchor="middle">服务器端</text>
+
+  <rect class="moduleBox" x="650" y="260" width="220" height="104"/>
+  <text class="boxTitleDark" x="760" y="302" text-anchor="middle">GPU 集群</text>
+  <text class="boxTextDark" x="760" y="336" text-anchor="middle">模型训练 / 推理计算</text>
+
+  <rect class="moduleBox" x="930" y="260" width="220" height="104"/>
+  <text class="boxTitleDark" x="1040" y="302" text-anchor="middle">数据集群</text>
+  <text class="boxTextDark" x="1040" y="336" text-anchor="middle">时序数据 / 业务数据</text>
+
+  <line x1="900" y1="390" x2="900" y2="468" stroke="#4b5563" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="810" y="424" width="180" height="36" rx="8" fill="#f8fafc" stroke="#d5dde7"/>
+  <text class="linkText" x="900" y="448" text-anchor="middle">专网</text>
+
+  <rect class="softPanel" x="120" y="500" width="1560" height="320"/>
+  <text class="sectionTitle" x="900" y="548" text-anchor="middle">应用端</text>
+
+  <rect class="moduleBox" x="180" y="600" width="320" height="128"/>
+  <text class="boxTitleLight" x="340" y="646" text-anchor="middle">实时采集与本地联动</text>
+  <text class="boxTextLight" x="340" y="680" text-anchor="middle">实时采集接入 / 本地控制联动</text>
+  <text class="boxTextLight" x="340" y="710" text-anchor="middle">边缘缓存 / 本地防护</text>
+
+  <rect class="moduleBox" x="740" y="580" width="320" height="170"/>
+  <text class="boxTitleLight" x="900" y="622" text-anchor="middle">数据接入与运行消费</text>
+  <text class="boxTextLight" x="900" y="660" text-anchor="middle">数据接入服务 / 孪生体数据接入</text>
+  <text class="boxTextLight" x="900" y="692" text-anchor="middle">运行消费 / 状态异常 / 指标转换</text>
+  <text class="boxTextLight" x="900" y="724" text-anchor="middle">统一接入 / 统一执行 / 统一输出</text>
+
+  <rect class="moduleBox" x="1300" y="600" width="320" height="128"/>
+  <text class="boxTitleLight" x="1460" y="646" text-anchor="middle">展示与运维服务</text>
+  <text class="boxTextLight" x="1460" y="680" text-anchor="middle">三维引擎场景 / 大屏展示</text>
+  <text class="boxTextLight" x="1460" y="710" text-anchor="middle">运维门户 / 报表服务</text>
+
+  <line x1="500" y1="664" x2="740" y2="664" stroke="#4b5563" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="1060" y1="664" x2="1300" y2="664" stroke="#4b5563" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <line x1="900" y1="820" x2="900" y2="910" stroke="#4b5563" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect class="deviceBox" x="620" y="920" width="560" height="92"/>
+  <text class="boxTitleDark" x="900" y="960" text-anchor="middle">设备层</text>
+  <text class="boxTextDark" x="900" y="992" text-anchor="middle">风机设备 / SCADA / 视频监控 / 智能巡视终端 / 安全监测设备</text>
+</svg>

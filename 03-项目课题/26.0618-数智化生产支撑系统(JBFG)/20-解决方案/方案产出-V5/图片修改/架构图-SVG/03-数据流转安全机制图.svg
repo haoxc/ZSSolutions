@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+  <defs>
+    <linearGradient id="topBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#184f9e"/>
+      <stop offset="48%" stop-color="#1f5fae"/>
+      <stop offset="100%" stop-color="#2ca9c9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#9fb6c8" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#6b7280"/>
+    </marker>
+    <style>
+      .bg { fill: #f3f7fb; }
+      .panel { fill: #ffffff; stroke: #cfd9e6; stroke-width: 2; }
+      .frame { fill: #fbfdff; stroke: #d7e1eb; stroke-width: 2; }
+      .title { font: 700 28px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #ffffff; }
+      .zoneTitle { font: 700 24px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #ffffff; }
+      .zoneBody { font: 600 16px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #ffffff; }
+      .arrowLabel { font: 600 16px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #475569; }
+      .zoneLeft { fill: #1e4f96; }
+      .zoneMiddle { fill: #f28b30; }
+      .zoneRight { fill: #255f9b; }
+      .line { stroke: #6b7280; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="720"/>
+
+  <rect class="panel" x="84" y="56" width="1432" height="608" rx="38" filter="url(#shadow)"/>
+  <rect x="126" y="74" width="1348" height="74" fill="url(#topBar)"/>
+  <text class="title" x="168" y="120">数据流转安全机制图</text>
+
+  <rect class="frame" x="126" y="148" width="1348" height="470"/>
+
+  <rect class="zoneLeft" x="196" y="286" width="280" height="156" rx="14" filter="url(#shadow)"/>
+  <text class="zoneTitle" x="336" y="330" text-anchor="middle">I 区（采集控制区）</text>
+  <text class="zoneBody" x="336" y="370" text-anchor="middle">设备采集 / 边缘控制</text>
+  <text class="zoneBody" x="336" y="402" text-anchor="middle">源身份认证 / 接入白名单</text>
+  <text class="zoneBody" x="336" y="434" text-anchor="middle">本地防护 / 日志留痕</text>
+
+  <rect class="zoneMiddle" x="660" y="286" width="280" height="156" rx="14" filter="url(#shadow)"/>
+  <text class="zoneTitle" x="800" y="330" text-anchor="middle">II 区（平台处理区）</text>
+  <text class="zoneBody" x="800" y="370" text-anchor="middle">接口鉴权 / 加密传输</text>
+  <text class="zoneBody" x="800" y="402" text-anchor="middle">数据校验 / 脱敏处理</text>
+  <text class="zoneBody" x="800" y="434" text-anchor="middle">缓存队列 / 安全审计</text>
+
+  <rect class="zoneRight" x="1124" y="286" width="280" height="156" rx="14" filter="url(#shadow)"/>
+  <text class="zoneTitle" x="1264" y="330" text-anchor="middle">III 区（管理消费区）</text>
+  <text class="zoneBody" x="1264" y="370" text-anchor="middle">业务应用 / 可视化展示</text>
+  <text class="zoneBody" x="1264" y="402" text-anchor="middle">权限控制 / 分级访问</text>
+  <text class="zoneBody" x="1264" y="434" text-anchor="middle">操作审计 / 追踪告警</text>
+
+  <path class="line" d="M476 364 L660 364"/>
+  <text class="arrowLabel" x="568" y="348" text-anchor="middle">安全接入 · 加密传输</text>
+
+  <path class="line" d="M940 364 L1124 364"/>
+  <text class="arrowLabel" x="1032" y="348" text-anchor="middle">权限控制 · 审计追踪</text>
+</svg>
